@@ -3,7 +3,7 @@ import './footer.css'
 
 function Footer(){
     return (
-       <div classname="footer">
+       <div className="footer">
            <div className="inner-footer">
                <img src="/pearl-logo.png" alt="pearl" />
                
