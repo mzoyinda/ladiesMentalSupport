@@ -1,11 +1,14 @@
 import React from 'react'
 import './App.css'
-import Footer from './footer'
+import 'materialize-css/dist/css/materialize.min.css';
+import 'materialize-css/dist/js/materialize';
+import Foot from './foot'
+
 
 function App() {
   return (
     <div>
-      <Footer />
+      <Foot />
     </div>
   );
 }
