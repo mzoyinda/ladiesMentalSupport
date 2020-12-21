@@ -1,9 +1,9 @@
 import React from 'react';
-
+import "../Herosection/index.css"
 
 const Index=() => {
     return (
-        <div>
+        <div className="Aim">
             <h1 className="center">Our Aim</h1>
             <div className="line-wrapper">
                 <div className="line"></div>

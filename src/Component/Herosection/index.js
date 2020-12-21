@@ -1,9 +1,5 @@
 import React from 'react';
-import 'materialize-css';
-import 'materialize-css/dist/css/materialize.min.css';
-import 'materialize-css/dist/js/materialize';
 import { Slider, Slide, Caption } from 'react-materialize';
-import Welcome from './Welcome/index';
 import './index.css';
 
 const Index= () => {
@@ -61,9 +57,6 @@ const Index= () => {
                     </Caption>
                 </Slide>
             </Slider>
-            </section>
-            <section>
-                <Welcome />
             </section>
         </div>
 
