@@ -2,7 +2,7 @@ import React from 'react'
 import {Footer} from 'react-materialize'
 
 const Foot = () =>{
-    return(
+    return(  
         <Footer
           className="#212121 grey darken-4"
           copyrights="&#169; 2020 Copyright Text"
