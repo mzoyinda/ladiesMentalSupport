@@ -1,5 +1,5 @@
 import React from 'react';
-import "../Herosection/index.css"
+
 
 const Index=() => {
     return (

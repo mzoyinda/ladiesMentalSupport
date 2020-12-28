@@ -1,6 +1,6 @@
 import React from 'react';
 import { Slider, Slide, Caption } from 'react-materialize';
-import './index.css';
+
 
 const Index= () => {
     

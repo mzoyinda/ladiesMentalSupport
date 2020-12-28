@@ -2,8 +2,8 @@ import React from 'react';
 import {Navbar,Icon, Dropdown} from 'react-materialize';
 import { NavLink } from 'react-router-dom';
 import { RiArrowDropDownLine } from 'react-icons/ri';
-import { GiHamburgerMenu } from 'react-icons/gi'
-import './index.css'
+import { GiHamburgerMenu } from 'react-icons/gi';
+
 
 const Index = () => {
         return (

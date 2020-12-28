@@ -1,13 +1,243 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+nav,
+.Navbar {
+    position: fixed;
+    top: 0;
+    border: none;
+    outline: none;
+    height: 62px !important;
+    z-index: 1;
+    background-color: white;
+    justify-content: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.Navbar a {
+    color: black !important;
+}
+
+.Navbar a:hover {
+    color: rgb(224, 24, 96) !important;
+}
+
+.home {
+    background-color: rgb(224, 24, 96) !important;
+}
+
+a.home {
+    color: white !important;
+}
+
+a.home:hover {
+    color: white!important;
+}
+
+.brand-logo img {
+    width: 100px;
+    height: 55px !important;
+    /* margin-top: 5px; */
+    object-fit: cover;
+}
+
+.dropdown-content {
+    min-width: fit-content !important;
+}
+
+.sidenav {
+    width: 200px;
+}
+
+.slider {
+    z-index: -1;
+    position: relative;
+    margin-top: 63px;
+    height: 550px !important;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.letters {
+    color: #e01860;
+}
+
+.pearlsLogo {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+@keyframes element {
+    from {
+        transform: translate(-1000px, 0px)
+    }
+    to {
+        transform: translate(0px, 0px);
+    }
+}
+
+#element {
+    background-color: white;
+    border: 5px solid white;
+    border-radius: 10px;
+    display: inline-block;
+    animation-name: element;
+    animation-duration: 3s;
+}
+
+@keyframes two {
+    from {
+        transform: translate(0px, -600px)
+    }
+    to {
+        transform: translate(0px, 0px);
+    }
+}
+
+#two {
+    background-color: white;
+    border: 5px solid white;
+    border-radius: 10px;
+    display: inline-block;
+    animation-name: two;
+    animation-duration: 3s;
+    animation-delay: 5s;
+}
+
+@keyframes three {
+    from {
+        transform: translate(0px, 400px);
+    }
+    to {
+        transform: translate(0px, -10px);
+    }
+}
+
+#three {
+    background-color: white;
+    border: 5px solid white;
+    border-radius: 10px;
+    display: inline-block;
+    animation-name: three;
+    animation-duration: 4s;
+    animation-delay: 12s;
+}
+
+@keyframes four {
+    from {
+        opacity: 0;
+        transform: scale3d(.75, .75, 1);
+    }
+    to {
+        opacity: 1;
+        transform: scale3d(2, 2, 1);
+    }
+}
+
+#four {
+    animation-name: four;
+    animation-duration: 4s;
+    animation-delay: 18s;
+    animation-timing-function: cubic-bezier(0, 1.07, .72, 1.42);
+    transform-origin: center top;
+}
+
+.indicator-item {
+    background-color: black !important;
+}
+
+.indicator-item.active {
+    background-color: #e01860 !important;
+}
+
+.line-wrapper {
+    text-align: center;
+}
+
+.line {
+    background-color: #e01860;
+    width: 55px;
+    height: 4px;
+    display: inline-block;
+    clear: both;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.pgraph {
+    width: 80%;
+    margin: 0px auto;
+    text-align: justify;
+    line-height: 2.0em;
+}
+
+.btn {
+    height: 35px;
+    width: 130px;
+    color: white;
+    background-color: #e01860;
+    border-bottom: 4px solid black;
+}
+
+.btn:hover {
+    cursor: pointer;
+    animation-name: btn-anime;
+    animation-duration: 2s;
+    animation-delay: .5s;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+@keyframes btn-anime {
+    0% {
+        background-color: #e01860;
+        border-bottom: 4px solid black;
+    }
+    100% {
+        background-color: black;
+    }
+}
+
+.btn-wrapper {
+    text-align: center;
+    margin: 15px auto;
+}
+
+@media only screen and (max-width: 992px) {
+    a.brand-logo {
+        text-align: center;
+    }
+    .brand-logo img {
+        width: 45%;
+        height: 63px !important;
+        padding: 2px 0px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .slider {
+        height: 350px !important;
+    }
+    .slides {
+        height: 350px !important;
+    }
+    img {
+        width: 100%;
+        height: 350px !important;
+    }
+    .captitle {
+        font-size: 22px;
+    }
+    .letters {
+        font-size: 14px;
+    }
+    #three {
+        display: inline-block;
+        width: 60%;
+        color: #e01860;
+    }
+    #wrap {
+        display: inline-block;
+        width: fit-content;
+    }
 }
