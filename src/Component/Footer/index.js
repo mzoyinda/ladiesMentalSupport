@@ -5,22 +5,23 @@ const Foot = () =>{
     return(
         <Footer
           className="#212121 grey darken-4"
-          copyrights="&#169; ladies mental support 2020"
-            links={<ul>
-                <li><a className="grey-text text-lighten-3" href="#!">Home</a></li>
-                <li><a className="grey-text text-lighten-3" href="#!">About us</a></li>
-                <li><a className="grey-text text-lighten-3" href="#!">Our Team</a></li>
-                <li><a className="grey-text text-lighten-3" href="#!">Contact us</a></li>
+          copyrights="&#169;2020 Ladies Mental Support | All Rights Reserved"
+            links={<ul className="footerlinks">
+                <li><a className="flink grey-text text-lighten-3" href="/">
+                    <i className="fa fa-whatsapp" aria-hidden="true"></i><span className="smlinks">Whatsapp</span></a>
+                </li>
+                <li><a className="flink grey-text text-lighten-3" href="#!">
+                    <i className="fa fa-twitter" aria-hidden="true"></i><span className="smlinks">Twitter</span></a>
+                </li>
+                <li><a className="flink grey-text text-lighten-3" href="#!">
+                    <i className="fa fa-facebook-official" aria-hidden="true"></i><span className="smlinks">Facebook</span></a>
+                </li>
             </ul>}
-            moreLinks={<a className="grey-text text-lighten-4 right" href="https://pearlsafrica.org/"><img src="pearls.png" alt="pearls africa logo" className="pearlsLogo"/>Pearls Africa</a>}
          >
-          <div className="container">
-            <div className="row">
-              <div className="col s12 m16">
-                <h5>LadiesMentalSupport</h5>
-                <p>Our vision is to provide culturally competent, 
-                  holistic, and wellness focused services that 
-                  prevents mental health challenges</p>
+          <div id="footercontent">
+            <div className="footerdescription">
+              <div >
+                <p>For enquiries, sponsorship and more information on our activities, connect with us on social media</p>
                 
               </div>
             </div>

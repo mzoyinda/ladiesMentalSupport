@@ -23,7 +23,7 @@ const Index = () => {
                 outDuration: 200,
                 preventScrolling: true
                 }}
-                className="Navbar"
+                className="Navbar white"
         >
         <NavLink className="home" to='/'>Home</NavLink>
         <NavLink to='/aboutUs'>About Us</NavLink>
