@@ -2,7 +2,7 @@ import React from 'react';
 import {Icon, Row, Col, Card,CardTitle} from 'react-materialize';
 
 
-const Index = ({image, children}) => {
+const Index = ({image, children, link}) => {
     return (
         <div>
   <Row>
@@ -12,7 +12,7 @@ const Index = ({image, children}) => {
   >
     <Card
       actions={[
-        <a key="1" href="/">This is a link</a>
+        <a key="1" href={link} style={{color:"#e01860"}}>Click to view their website</a>
       ]}
       closeIcon={<Icon>close</Icon>}
       header={<CardTitle image={image}  className="ngoImg"/> }

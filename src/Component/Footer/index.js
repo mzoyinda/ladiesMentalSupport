@@ -4,7 +4,7 @@ import { Footer } from 'react-materialize'
 const Foot = () =>{
     return(
         <Footer
-          className="#212121 grey darken-4"
+          className="#212121 grey darken-4 footer"
           copyrights="&#169;2020 Ladies Mental Support | All Rights Reserved"
             links={<ul className="footerlinks">
                 <li><a className="flink grey-text text-lighten-3" href="/">

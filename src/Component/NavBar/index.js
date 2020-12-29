@@ -26,9 +26,8 @@ const Index = () => {
                 className="Navbar white"
         >
         <NavLink className="home" to='/'>Home</NavLink>
-        <NavLink to='/aboutUs'>About Us</NavLink>
-        <NavLink to='/ngolink'>Connect with NGOs</NavLink>
-        <NavLink to='/team'>Team</NavLink>
+        <NavLink to='/about-us'>About Us</NavLink>
+        <NavLink to='/get-support'>Get Support</NavLink>
         </Navbar>
         
         </div>

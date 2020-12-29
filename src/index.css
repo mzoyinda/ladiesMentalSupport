@@ -67,20 +67,23 @@ img {
 }
 
 .ngoSection {
-    margin-top: 20vmin !important;
+    margin-top: 15vmin !important;
+}
+
+.ngoHeader {
+    width: 60%;
+    margin-left: 10vmin;
 }
 
 .ngoImg {
-    width: 30vmin !important;
-    height: 25vmin !important;
-    margin: 5px 2px;
+    width: 37vmin !important;
+    height: 23vmin !important;
+    margin: 20px 2px;
     object-fit: cover;
 }
 
-.card .card-content {
-    padding: 24px;
-    border-radius: 0 0 2px 2px;
-    width: 50vmin !important;
+.footer {
+    margin-top: 20vmin !important;
 }
 
 @keyframes element {
@@ -218,40 +221,48 @@ img {
     text-align: center;
     margin: 15px auto;
 }
+
 .phone {
     margin-left: 0.5em;
 }
+
 .whatsapp-link {
     margin-left: 1em;
     text-decoration: none;
     color: black !important;
 }
+
 .page-footer {
     margin: 0px;
 }
+
 .footercontent {
     width: 100% !important;
-    margin:0px !important;
+    margin: 0px !important;
 }
+
 .footerdescription {
     display: flex !important;
     flex-direction: column !important;
 }
+
 .footer-copyright {
     text-align: center;
     background-color: white !important;
     color: black !important;
 }
+
 .footerlinks {
     display: flex;
 }
+
 .flink {
     margin: 0 15px;
 }
+
 .smlinks {
     display: none;
 }
-
 
 @media only screen and (max-width: 992px) {
     a.brand-logo {
@@ -289,8 +300,16 @@ img {
     #wrap {
         display: inline-block;
         width: fit-content;
-    }    
+    }
+    .ngoImg {
+        display: none;
+    }
+    .ngoHeader {
+        width: 100%;
+        margin-left: 5vmin;
+    }
 }
+
 @media screen and (max-width:602px) {
     .footerlinks {
         text-align: center;
@@ -302,7 +321,7 @@ img {
     }
     .footerdescription {
         text-align: center;
-
+    }
     .ngoImg {
         width: 30vmin !important;
         height: 45vmin !important;
