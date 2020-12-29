@@ -6,6 +6,7 @@ import Home from './Component/Home/index';
 import NgoLink from './Component/NgoLink/new';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import './index.css';
+import About from './Component/About/index';
 
 function App() {
   return (
@@ -16,6 +17,9 @@ function App() {
         </Route>
         <Route exact path='/ngolink'>
             <NgoLink/>
+          </Route>
+          <Route path='/aboutUs'>
+            <About />
           </Route>
       </Switch>
       

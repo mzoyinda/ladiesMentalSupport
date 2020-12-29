@@ -264,3 +264,8 @@ img {
         object-fit: cover;
     }
 }
+
+.about-img{
+    height: 500px;
+    width: 100pxpx;
+}
