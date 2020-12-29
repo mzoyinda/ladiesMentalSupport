@@ -3,7 +3,7 @@ import {Navbar,Icon, Dropdown} from 'react-materialize';
 import { NavLink } from 'react-router-dom';
 import { RiArrowDropDownLine } from 'react-icons/ri';
 import { GiHamburgerMenu } from 'react-icons/gi';
-import './index.css'
+// import './index.css'
 
 const Index = () => {
         return (
@@ -24,7 +24,7 @@ const Index = () => {
                 outDuration: 200,
                 preventScrolling: true
                 }}
-                className="Navbar"
+                className="Navbar white"
         >
         <NavLink className="home" to='/'>Home</NavLink>
         <NavLink to='/aboutUs'>About Us</NavLink>
