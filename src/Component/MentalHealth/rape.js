@@ -21,7 +21,7 @@ const Index = () => {
                         <h5><b>Hands Off Initiative</b></h5>
                         <p> Hands Off Initiative’s goal is to “break the cycle of abuse in our society and address the systemic problem of rape, sexual abuse, harassment, and assault </p>
                 </Card>
-                <Card image="/project.jpg" link="https://projectalertnig.org/"> 
+                <Card image="/alert.png" link="https://projectalertnig.org/"> 
                         <h5><b>Project Alert</b></h5>
                         <p>To educate the society on the forms and prevalence of violence against women and render practical support to female victims of violence</p>
                     <p><b>Location: </b>Lagos: 21, Akinsanya Street Off Isheri Road, Taiwo Bus stop Ojodu - Berger, Lagos. <p>Abuja:  26 Bamenda Street, Off Abidjan Street, Wuse Zone 3, Abuja.</p>

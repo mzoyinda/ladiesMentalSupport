@@ -16,7 +16,7 @@ const Index = () => {
                         <p>Gede works with those who suffer from underserved and stigmatized health burdens to achieve long term positive change at the community level through high quality research (often into prevalence and impact), catalytic partnerships and advocacy.</p>
                         <p><b>Location: </b>No. 13 Danube Street, Maitama, Abuja AND No. 97 Goldie Street,Calabar South, Cross River State</p>
                 </Card>
-                <Card image="/CCHD.png" link="https://www.cchdnigeria.org/"> 
+                <Card image="/correction.jpg" link="https://www.cchdnigeria.org/"> 
                         <h5><b>The Centre for Corrections and Human Development (CCHD)</b></h5>
                         <p>The Centre for Corrections and Human Development (CCHD) is a non- governmental organization dedicated to the promotion and enhancement of quality of life, the re-establishment and development of human personality through counseling, mentoring, rehabilitation, education and empowerment of deserving but less privileged or disoriented Youths and young persons in Nigeria.</p>
                         <p><b>Location: </b>39 Bode Thomas Street, Surulere, Lagos, Nigeria</p>
@@ -26,7 +26,7 @@ const Index = () => {
                         <p>The Centre for Mental Health Research and Initiative (CEMHRI) is a non-profit organization that is dedicated to promoting mental health awareness and eliminating the stigmas that is associated with mental illnesses through service and research. We strive to motivate, involve, and educate the general public about mental health in order to help those suffering from mental health issues to find out how and where to acquire assistance.</p>
                         <p><b>Location: </b>3rd Floor, Glass House, 1-5, Oba Akinjobu Way, Ikeja Lagos, Nigeria</p>
                     </Card>
-                    <Card image="/Mental.png" link="https://mentalcare.life/"> 
+                    <Card image="/MCF.jpg" link="https://mentalcare.life/"> 
                         <h5><b>The Mental Care Foundation</b></h5>
                         <p>The Mental Care Foundation brings together, technology and emotional support to give mental health a voice in Nigeria, where depression is seen as a “white man” illness</p>
                     </Card>

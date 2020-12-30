@@ -11,11 +11,11 @@ const Index = () => {
                         <p>She Writes Woman is a women-led movement of love hope and support that gives mental health a voice in Nigeria, and their vision is to create better lives for Nigerians by improving the way they think, feel and behave</p>
                         <p><b>Location: </b>17, Yinusa Adeniji (The Brickhouse), off Muslim Avenue, Ikeja</p>
                 </Card>
-                <Card image="/Mental.png" link="https://mentalcare.life/"> 
+                <Card image="/MCF.Jpg" link="https://mentalcare.life/"> 
                         <h5><b>The Mental Care Foundation</b></h5>
                         <p>The Mental Care Foundation brings together, technology and emotional support to give mental health a voice in Nigeria, where depression is seen as a “white man” illness</p>
                     </Card>
-                <Card image="/project.jpg" link="http://project-covid.ng"> 
+                <Card image="/mani.png" link="http://project-covid.ng"> 
                         <h5><b>Mentally Aware Nigeria Initiative</b></h5>
                     <p>MANI is a community of young people who are motivated to fight stigma and create an environment that makes it possible for people to seek care for their mental health without fear of discrimination.</p>
                 </Card>

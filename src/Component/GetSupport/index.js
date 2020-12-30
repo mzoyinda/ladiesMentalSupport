@@ -12,7 +12,7 @@ const Index = () => {
     return (
         <div>
             <NavBar/>
-            <div className="ngoSection">
+            <div className="topSection">
                 <h3 className="ngoHeader">Get connected to a mental health support near you by clicking any of the links below..</h3>
                 <General/>
                 <Depression />
