@@ -21,7 +21,7 @@ const Foot = () =>{
           <div id="footercontent">
             <div className="footerdescription">
               <div >
-                <p>For enquiries, sponsorship and more information on our activities, connect with us on social media</p>
+                <p>For enquiries, partnership and more information on our activities, connect with us on social media</p>
                 
               </div>
             </div>
