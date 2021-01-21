@@ -12,7 +12,7 @@ const Index=() => {
                 <span className="phone"><i class="fa fa-phone" aria-hidden="true"></i>    
                 <b>  08077781990</b>,<b>  09098830620</b></span> or send a Whatsapp message through this 
                 <a href="/" target="_blank" rel="noreferrer" className="whatsapplink">  <i className="fa fa-whatsapp" aria-hidden="true"></i>
-                link <span className="smlinks">Whatsapp</span></a>
+                link <span className="smlinks"> Whatsapp</span></a>
             </p> 
         </div>
     )
