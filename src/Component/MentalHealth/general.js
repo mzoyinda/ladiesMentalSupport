@@ -11,7 +11,7 @@ const Index = () => {
                         <p>She Writes Woman is a women-led movement of love hope and support that gives mental health a voice in Nigeria, and their vision is to create better lives for Nigerians by improving the way they think, feel and behave</p>
                         <p><b>Location: </b>17, Yinusa Adeniji (The Brickhouse), off Muslim Avenue, Ikeja</p>
                 </Card>
-                <Card image="/MCF.Jpg" link="https://mentalcare.life/"> 
+                <Card image="/MCF.jpg" link="https://mentalcare.life/"> 
                         <h5><b>The Mental Care Foundation</b></h5>
                         <p>The Mental Care Foundation brings together, technology and emotional support to give mental health a voice in Nigeria, where depression is seen as a “white man” illness</p>
                     </Card>
