@@ -7,7 +7,7 @@ const Index = () => {
  <div>
       <NavBar />
      <div className="about-img">
-          <img src="picfour.jpg" alt="together" />
+          <img className="aboutImg" src="picfour.jpg" alt="together" />
      </div>
             {/* <h3 className="topSection center-align">About Us</h3> */}
             <div className="aboutSection">
